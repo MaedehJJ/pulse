@@ -5,5 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "celery>=5.6.3",
+    "dj-database-url>=3.1.2",
     "django>=6.0.5",
+    "djangorestframework>=3.17.1",
+    "langchain>=1.2.18",
+    "langchain-openai>=1.2.1",
+    "openai>=2.36.0",
+    "pgvector>=0.4.2",
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.2",
+    "redis>=7.4.0",
 ]
